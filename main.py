@@ -85,8 +85,8 @@ def run_parser(file_path, api_url, query=None, tables_only=False, crop_size=0, d
 def main():
     """CLI için ana fonksiyon."""
     parser = argparse.ArgumentParser(description='Belge işleme ve veri çıkarma aracı')
-    parser.add_argument('file', help='İşlenecek dosya yolu')
-    parser.add_argument('--api-url', required=True, help='VLLM API URL\'si')
+    # parser.add_argument('file', help='İşlenecek dosya yolu')
+    # parser.add_argument('--api-url', required=False, help='VLLM API URL\'si')
     parser.add_argument('--query', default='*', help='Sorgu metni veya JSON şeması')
     parser.add_argument('--tables-only', action='store_true', help='Sadece tabloları işle')
     parser.add_argument('--crop', type=int, default=0, help='Görüntü kırpma boyutu')
@@ -97,8 +97,8 @@ def main():
     
     # Parser'ı çalıştır
     result = run_parser(
-        args.file,
-        args.api_url,
+        "fatura.png",
+        "http://localhost:8000/v1/chat/completions",
         query=args.query,
         tables_only=args.tables_only,
         crop_size=args.crop,
