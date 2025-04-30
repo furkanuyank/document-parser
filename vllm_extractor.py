@@ -6,6 +6,7 @@ import requests
 import base64
 from PIL import Image
 import logging
+import re
 
 from pdf_optimizer import PDFOptimizer
 from image_optimizer import ImageOptimizer
@@ -195,6 +196,7 @@ class VLLMExtractor:
         return {"tables": tables}
         
     def _call_vllm_api(self, api_url, file_path, prompt):
+        print(prompt+"------\n")
         """
         VLLM API'ye istek gönderir.
         
@@ -210,37 +212,79 @@ class VLLMExtractor:
             # Dosyayı base64'e dönüştür
             with open(file_path, "rb") as f:
                 image_base64 = base64.b64encode(f.read()).decode("utf-8")
+            # print(image_base64)
+
+            headers = {
+            "Content-Type": "application/json"
+            }           
+            data = {
+            "model": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                    {
+                    "type": "text",
+                    "text": """You are a document analysis assistant. Analyze the image and extract the following information:
+gönderen, alıcı, ETTN, seneryo
+
+Return the information in valid JSON format with the specified fields. Use null for missing or unclear fields.
+"""
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{image_base64}"
+                    }
+                }
+            ]
+        }
+    ]
+}
             
             # API isteği payload'ını hazırla
-            data = {
-                "model": "default",  # VLLM'in kullandığı model adı
-                "prompt": prompt,
-                "images": [image_base64],
-                "max_tokens": 1500,
-                "temperature": 0.2,
-                "stream": False
-            }
+            # data = {
+            #     "model": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",  # VLLM'in kullandığı model adı
+            #     "messages":messages,
+            #     # "prompt": prompt,
+            #     # "images": [image_base64],
+            #     # "max_tokens": 1500,
+            #     "temperature": 0.2,
+            #     # "stream": False
+            # }
             
             # API isteği gönder
-            response = requests.post(api_url, json=data, timeout=300)
+            response = requests.post(api_url, json=data,headers=headers)
+            response_json=response.json()
+            ai_response_raw = response_json["choices"][0]["message"]["content"]
+            print(ai_response_raw)
+            print("-------------------\n")
             response.raise_for_status()
             
-            # Yanıtı işle
-            result = response.json()
-            text_output = result.get("choices", [{}])[0].get("text", "")
+#             match = re.search(r"```json\s*(.*?)\s*```", ai_response_raw, re.DOTALL)
+#             if match:
+#                 ai_response_cleaned = match.group(1)
+#     # JSON'a parse et
+#                 ai_result = json.loads(ai_response_cleaned)
+#             else:
+#                 ai_result = ai_response_raw  # Eğer düzgün formatta değilse ham hali
+
+# # Sonucu yazdır
+#             print(json.dumps(ai_result, indent=2, ensure_ascii=False))
             
             # JSON çıktısını bul ve parse et
-            try:
-                json_match = re.search(r'```json\s*([\s\S]*?)\s*```', text_output)
-                if json_match:
-                    json_str = json_match.group(1).strip()
-                    return json.loads(json_str)
-                else:
-                    # JSON formatında değilse, metin olarak döndür
-                    return {"raw_text": text_output}
-            except (json.JSONDecodeError, re.error):
-                return {"raw_text": text_output}
+            # try:
+            #     json_match = re.search(r'```json\s*([\s\S]*?)\s*```', text_output)
+            #     if json_match:
+            #         json_str = json_match.group(1).strip()
+            #         return json.loads(json_str)
+            #     else:
+            #         # JSON formatında değilse, metin olarak döndür
+            #         return {"raw_text": text_output}
+            # except (json.JSONDecodeError, re.error):
+            #     return {"raw_text": text_output}
                 
         except Exception as e:
+            raise e
             logging.error(f"VLLM API çağrısı hatası: {e}")
             return {"error": str(e)}
