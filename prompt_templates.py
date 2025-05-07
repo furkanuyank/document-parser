@@ -20,7 +20,7 @@ Return the schema in valid JSON format. Use null for missing or unclear fields.
     "general_extraction": Template(
         """You are a document analysis assistant. Analyze the document and extract all relevant information.
 Return your analysis as a structured JSON with appropriate fields and values.
-Use null for missing or unclear information.
+Use null for missing or unclear information. Response in Turkish
 """
     ),
     "classification": Template(
@@ -42,7 +42,7 @@ def get_prompt_template(template_name="general_extraction", **kwargs):
     return TEMPLATES[template_name].safe_substitute(**kwargs)
 
 def prompt_generator(type,query):
-    if type is None or type == "*":
+    if type is None or type == "*" or (type == "schema" and query == "*"):
         return get_prompt_template(template_name="general_extraction")
     elif type == "classification":
         return get_prompt_template(template_name="classification")

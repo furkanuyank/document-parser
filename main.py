@@ -2,6 +2,7 @@ import os
 import json
 import argparse
 from vllm_extractor import VLLMExtractor
+from gpt_extractor import GPTExtractor
 from json_utils import extract_json_from_text, validate, merge_json_list
 from prompt_templates import prompt_generator
 from dotenv import load_dotenv
@@ -10,7 +11,7 @@ def run_parser(file_path, api_url, query=None, type=None):
     if not os.path.exists(file_path):
         return {"error": f"Dosya bulunamadı: {file_path}"}
         
-    extractor = VLLMExtractor()
+    extractor = GPTExtractor()
     query_text = prompt_generator(type, query)
             
     input_data = [
@@ -64,10 +65,10 @@ def main():
     args = parser.parse_args()
     
     result = run_parser(
-        "deneme.png",
+        "fatura.png",
         "https://api.openai.com/v1/chat/completions",
-        type='field',
-        query='''document_number:string,date:string'''
+        type='schema',
+        query='''{"document_id":"string"}'''
     )
     
     output_json = json.dumps(result, indent=2, ensure_ascii=False)

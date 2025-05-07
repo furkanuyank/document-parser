@@ -5,7 +5,7 @@ import base64
 
 from pdf_optimizer import PDFOptimizer
 
-class VLLMExtractor:
+class GPTExtractor:
     
     def run_inference(self, api_url, input_data):
         if not input_data or not input_data[0].get("file_path"):
@@ -65,6 +65,7 @@ class VLLMExtractor:
         print(prompt+"------\n")
         headers = {
             "Content-Type": "application/json",
+            "Authorization": f"Bearer {os.getenv('OPENAI_API_KEY')}"
         }
 
         content_block = [{"type": "text", "text": prompt}]
@@ -77,7 +78,7 @@ class VLLMExtractor:
             })
 
         data = {
-            "model": "Qwen2.5-VL-7B-AWQ",
+            "model": "gpt-4o-mini",
             "messages": [
                 {
                     "role": "user",
