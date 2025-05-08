@@ -1,0 +1,15 @@
+{
+  "identity_number": "string",
+  "first_name": "string",
+  "last_name": "string",
+  "gender": "string",
+  "birth_date": "string",
+  "birth_place": "string",
+  "mother_name": "string",
+  "father_name": "string",
+  "nationality": "string",
+  "document_serial_number": "string",
+  "valid_from": "string",
+  "valid_until": "string",
+  "issuing_authority": "string"
+}

@@ -3,7 +3,7 @@ import json
 from vllm_extractor import VLLMExtractor
 from gpt_extractor import GPTExtractor
 from json_utils import extract_json_from_text, validate, merge_json_list
-from prompt_templates import prompt_generator
+from prompt_utils import prompt_generator, select_schema
 
 
 def _serve_result(results, num_pages, query, file_path):
@@ -30,12 +30,17 @@ def _serve_result(results, num_pages, query, file_path):
 
     return response
 
-def run_parser_vlmm(file_path, api_url, query=None, type=None):
+def run_parser_vllm(file_path, api_url, query=None, type=None, schema=None):
     if not os.path.exists(file_path):
         return {"error": f"Dosya bulunamadı: {file_path}"}
-        
+    
     extractor = VLLMExtractor()
-    query_text = prompt_generator(type, query)
+
+    if schema=="*" or schema is None:
+        query_text = prompt_generator(type, query)
+    else:
+        selected_schema = select_schema(schema)
+        query_text = prompt_generator(type, selected_schema)
             
     input_data = [
         {
@@ -48,16 +53,19 @@ def run_parser_vlmm(file_path, api_url, query=None, type=None):
         api_url, 
         input_data, 
     )
-    
+
     return _serve_result(results, num_pages, query, file_path)
-
-
-def run_parser_gpt(file_path, api_url, query=None, type=None):
+def run_parser_gpt(file_path, api_url, query=None, type=None, schema=None):
     if not os.path.exists(file_path):
         return {"error": f"Dosya bulunamadı: {file_path}"}
-        
+    
     extractor = GPTExtractor()
-    query_text = prompt_generator(type, query)
+
+    if schema=="*" or schema is None:
+        query_text = prompt_generator(type, query)
+    else:
+        selected_schema = select_schema(schema)
+        query_text = prompt_generator(type, selected_schema)
             
     input_data = [
         {

@@ -1,0 +1,28 @@
+{
+  "document_title": "string",
+  "institution": "string",
+  "department": "string",
+  "document_number": "string",
+  "subject": "string",
+  "date": "string",
+  "recipient": "string",
+  "recipient_department": "string",
+  "references": [
+    {
+      "document_number": "string"
+    }
+  ],
+  "attachments": [
+    "string"
+  ],
+  "distribution": [
+    "string"
+  ],
+  "signatures": [
+    {
+      "name": "string",
+      "title": "string",
+      "role": "string"
+    }
+  ]
+}

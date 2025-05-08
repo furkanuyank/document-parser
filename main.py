@@ -4,7 +4,7 @@ import argparse
 from vllm_extractor import VLLMExtractor
 from gpt_extractor import GPTExtractor
 from json_utils import extract_json_from_text, validate, merge_json_list
-from prompt_templates import prompt_generator
+from prompt_utils import prompt_generator
 from dotenv import load_dotenv
 
 def run_parser(file_path, api_url, query=None, type=None):

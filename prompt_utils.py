@@ -1,5 +1,8 @@
 import json
+import os
 from string import Template
+
+SCHEMA_DIR = "./schemas"
 
 TEMPLATES = {
     "extract_fields": Template(
@@ -57,3 +60,14 @@ def prompt_generator(type,query):
         return get_prompt_template(template_name="extract_schema", schema=query)
     
     return get_prompt_template()
+
+def select_schema(name):
+    schema_path = os.path.join(SCHEMA_DIR, f"{name}.json")
+    
+    if not os.path.exists(schema_path):
+        raise FileNotFoundError(f"Şema bulunamadı: {schema_path}")
+    
+    with open(schema_path, "r", encoding="utf-8") as schema_file:
+        schema = json.load(schema_file)
+    
+    return schema
