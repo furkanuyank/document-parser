@@ -1,0 +1,1158 @@
+dilekçe1 2.65
+{
+    "file_path": "./uploads/dilekce1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "evrak_tarih_ve_sayisi": "13.01.2022-75191",
+        "universite": {
+            "isim": "Sinop Üniversitesi",
+            "rektoru": "Prof. Dr. Cem Cüneyt ERSANLI"
+        },
+        "departman": {
+            "ad": "Öğrenci İşleri Daire Başkanlığı"
+        },
+        "sayi": "E-52345007-399-75191",
+        "tarih": "13.01.2022",
+        "konu": "Ders İçerikleri",
+        "icerik": {
+            "mesaj": "Üniversitemiz bünyesindeki Fakülte, Enstitü, Yüksekokullar ile Meslek Yüksekokullarındaki eğitim-öğretim faaliyeti sürdürülen yükseköğretim programlarının müfredatlarında yer alan dersler ve ders içerikleri ile programlara ilişkin diğer bilgilere Üniversitemiz Öğrenci Bilgi Paketi (https://obs.sinop.edu.tr/oibs/bologna/) üzerinden ulaşılabilme olup Üniversitenize yatay geçiş, özel öğrencilik, öğrenci değişim programı vb. nedenlerle başvuruda bulunan Üniversitemiz öğrencilerine elektronik ortamda paylaşım açılan bu bilgiler için ayrıca isık imzalı belge verilmeyecektir."
+        }
+    }
+}
+
+dilekçe2 2.65
+
+{
+    "file_path": "./uploads/dilekce2.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Maliye Bakanlığı'nın Gelir İdaresi Başkanlığı tarafından gönderilen bir yazı",
+        "date": "26/11/2015",
+        "sender": {
+            "name": "Yıldırım BOZBIYIK",
+            "position": "Gelir İdaresi Daire Başkanı"
+        },
+        "recipient": {
+            "name": "Mehmet KUÇUKŞAHIN",
+            "title": "Basın ve Halkla İlişkiler Müşaviri"
+        },
+        "subject": "Bilgi Edinme Hakkı",
+        "content": {
+            "message": "Başkanlığımız Bilgi Edinme Birimine 18.11.2015 tarih ve 43001 sayılı E-Tebliyat Başvurusu ile ilgili olarak söz konusu bilgi talebinin incelenmiş olup Yönetim Kurulu tarafından e-tebliyat başvurusu için görevlendirilen bir kişi olması durumunda; Yönetim Kurulu tarafından verilen imzanın doğruluğunun vergi dairesi sicil servis dosyası yardımıyla teyit edilmesi veya imza sirkülerinin olması durumunda vergi dairesi tarafından kabul edilebilecektir.",
+            "request": "Bilgi edinmesini rica ederim."
+        }
+    }
+}
+
+dilekçe3 1.7
+
+{
+    "file_path": "./uploads/dilekce3.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "tarih": "04/05/2025",
+        "universite": "Sakarya Üniversitesi",
+        "bolum_baskanligi": "Mütercim ve Tercümanlık Bölüm Başkanlığına",
+        "mesaj": "Üniversitemiz İnsan ve Toplum Bilimleri Fakültesi Mütercim ve Tercümanlık Bölümü 202070045 öğrenci numarasına sahip lisans öğrencisiyim. Mazeret sınavına girmeyi talep etmekteyim. Gereğini arz ederim.",
+        "adres": "Çankaya/ANKARA",
+        "cep_no": "05369847512",
+        "e_posta": "email1234@gmail.com",
+        "yazan_ismi": "Ahmet Can"
+    }
+}
+
+duyuru1 3.34
+
+{
+    "file_path": "./uploads/duyuru1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Duyuru",
+        "date": "18 Eylül 2018",
+        "title": "PERPA Kapalı Otoparkına Vale Hizmeti Alımı",
+        "organization": "PERPA Ticaret Merkezi",
+        "department": "Kat Malikeri Yöneticiliği Temsilciler Üst Kurulu",
+        "content": [
+            {
+                "point": "1",
+                "description": "PERPA Ticaret Merkezi Kat Malikeri Yöneticiliği Temsilciler Üst Kurulu Kapalı Otoparkına vale hizmeti alımı yapılacaktır."
+            },
+            {
+                "point": "2",
+                "description": "Vale hizmeti alımı ile ilgili hazırlanan şartname eki EK-A'da, şartname eki sözleşmede EK-B'de dir."
+            },
+            {
+                "point": "3",
+                "description": "Vale hizmeti alımı ile ilgili fiyat tekliflerinin Üst Kurul Genel Müdürlüğüne kapalı zarf ile 26 Eylül 2018 tarihi saat 17:00'a kadar bildirilmesini rica eder, saygılar sunanız."
+            }
+        ],
+        "signatures": [
+            {
+                "name": "Remyi YÜZBAŞIOĞLU",
+                "position": "Genel Müdür"
+            },
+            {
+                "name": "Serkan DUZENLI",
+                "position": "Genel Müdür"
+            }
+        ],
+        "attachments": [
+            {
+                "name": "EK-A (Vale Hizmeti Alımı Şartnamesi)"
+            },
+            {
+                "name": "EK-B (Vale Hizmeti Alımı Sözleşme Örneği)"
+            }
+        ]
+    }
+}
+
+duyuru2 3.72
+
+{
+    "file_path": "./uploads/duyuru2.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_title": "ANADOLU YAKASI ELEKTRİK DAĞITIM A.Ş. İŞYERİNDE ÇALIŞAN ÜYELERİME DUYURU",
+        "sender": "Sendikamızla",
+        "recipient": "Enerjisa Elektrik Dağıtım A.Ş., Başkent Elektrik Dağıtım A.Ş., Anadolu Yakası Elektrik Dağıtım A.Ş., Toroslar Elektrik Dağıtım A.Ş.",
+        "content": {
+            "toplu_iş_sözleşmesi": {
+                "yeme_kartı_yardımı": {
+                    "tarih": "01.01.2016",
+                    "brüt_tutar": "9.00 TL/gün",
+                    "ilave_edilecek_tutar": "1.00 TL/gün"
+                }
+            },
+            "normal_mesai_bitiminde_yemek_parası": {
+                "tarih": "01.12.2015",
+                "brüt_tutar": "9.00*22 = 198.00 TL/BRÜT",
+                "net_tutar": "141.00 TL/NET"
+            },
+            "normal_mesai_bitiminde_yemek_parası_2": {
+                "tarih": "01.01.2016",
+                "brüt_tutar": "10.00*22 = 220.00 TL/NET"
+            },
+            "protokol": {
+                "tarih": "22.12.2015",
+                "url": "www.enerjicalisanlari.wordpress.com"
+            }
+        },
+        "footer": {
+            "organisation": "TES - İŞ",
+            "branch": "İSTANBUL 1 NO'LU ŞUBE",
+            "management_committee": "YÖNETİM KURULU"
+        }
+    }
+}
+
+
+fatura1 3.81
+
+{
+    "file_path": "./uploads/fatura1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "faturaNo": "12345",
+        "tarih": "1 Haziran 2025",
+        "siparisci": {
+            "isim": "VALİDEBAĞ OTEL",
+            "telefon": "0123 456 78 90",
+            "adres": "Bağdat Cad. No: 0123, Kadıköy"
+        },
+        "faturaDetaylar": [
+            {
+                "urun": "Yemekhane kurulumu",
+                "adet": "1",
+                "birimFiyat": "1.250₺",
+                "toplam": "1.250₺"
+            },
+            {
+                "urun": "Catering hizmeti",
+                "adet": "2",
+                "birimFiyat": "2.000₺",
+                "toplam": "4.000₺"
+            },
+            {
+                "urun": "Temizlik hizmeti",
+                "adet": "1",
+                "birimFiyat": "980₺",
+                "toplam": "980₺"
+            }
+        ],
+        "araToplam": "6.230 TL",
+        "vergi": "0 TL",
+        "toplam": "6.230 TL",
+        "odemeBilgisi": {
+            "banka": "Altın Cevher Bankası",
+            "hesapAdi": "Kumralgil Lojistik",
+            "hesapNo": "123 456 7890",
+            "vade": "1 Temmuz 2025"
+        },
+        "iletisimBilgileri": {
+            "email": "merhaba@harikasite.com.tr",
+            "adres": "Bağdat Cad. No: 0123 Kadıköy",
+            "telefon": "0123 456 78 90",
+            "webSite": "harikasite.com.tr"
+        }
+    }
+}
+
+fatura2 11.28
+
+{
+    "file_path": "./uploads/fatura2.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "GİB E-BELGE ZORUNLULUĞU",
+        "revision_date": "22.01.2022",
+        "fields": [
+            {
+                "field_name": "E-FATURA",
+                "status": "YÜRÜRLÜKTEN"
+            },
+            {
+                "field_name": "E-ARŞİV FATURA",
+                "status": "YÜRÜRLÜKTEN"
+            },
+            {
+                "field_name": "E-IRSALİYE",
+                "status": "YÜRÜRLÜKTEN"
+            },
+            {
+                "field_name": "E-MÜSTAHSİL",
+                "status": "YÜRÜRLÜKTEN"
+            },
+            {
+                "field_name": "E-DEFTER",
+                "status": "YÜRÜRLÜKTEN"
+            }
+        ],
+        "cutoff_dates": [
+            {
+                "category": "YILLIK 10 MİLYON TL VE ÜZERİ CIRO",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "YILLIK 5 MİLYON TL VE ÜZERİ CIRO",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "YILLIK 4 MİLYON TL VE ÜZERİ CIRO",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "2022 YILI 3 MİLYON TL VE ÜZERİ CIRO",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "E-TİCARET FİRMALARI 2021 YILI 1 MİLYON TL ÜZERİ CIRO",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "E-TİCARET FİRMALARI 2022 YILI 500 BİN TL CIRO VE ÜZERİ",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "GAÝRÎMENKUL YETA MOTORLU ARAC FİRMALARI 2021 YILI 1 MİLYON TL ÜZERİ CIRO",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "GAÝRÎMENKUL YETA MOTORLU ARAC FİRMALARI 2022 YILI 500 BİN TL CIRO VE ÜZERİ",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "KYÎMETÜ MADEN SATICILARI",
+                "date": "1.01.2024"
+            },
+            {
+                "category": "SARJ AÇI İŞLETMESİ LİANSU FİRMALAR",
+                "date": "1.01.2025"
+            },
+            {
+                "category": "VERGİ MÜKELLEFLERİNE FATURA DÜZENLEME LİMİTİ ZORUNLULUÐU ÜZERÝ FATURALAR",
+                "date": "YÜRÜRLÜKTEN"
+            },
+            {
+                "category": "DIÝER MÜKELLEFLERİE 5 BÝN TL VE ÜZERÝ DÜZENLENIEN FATURALAR",
+                "date": "YÜRÜRLÜKTEN"
+            },
+            {
+                "category": "TÜTÜN, ALKOL, GAZLI İÇECEK ÜRETİCİ VE DAÝTCİLERİ",
+                "sub_fields": [
+                    {
+                        "sub_field_name": "HKS SİSTEMİNE KAYITLI SEBE MEYVE HAL FİRMALARI",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "GÜBRE TAÞIP SİSTEMİNE KAYITLI TARIM FİRMALARI",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "SEKER İMALATÇILARI",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "ENERJİ SEKTÖRÜ ÜRETİCİ, DAÝTCİ VE BAYİLERİ",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "MADEN İMALAT VE İTHALATÇILARI",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "BAVUL TAÞİCİYET YAPAN FİRMALAR",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "OTELLER",
+                        "date": "Ticari Faaliyet Başlangıçını Takip Eden 1 Ocak"
+                    },
+                    {
+                        "sub_field_name": "DÖVİZ BÜROLARI",
+                        "date": "Ticari Faaliyet Başlangıçını Takip Eden 1 Ocak"
+                    }
+                ]
+            },
+            {
+                "category": "GÖSTERİ FİRMALAR",
+                "sub_fields": [
+                    {
+                        "sub_field_name": "ŞEHİRLERARASI YOLCU TAÞIMA FİRMALARI",
+                        "date": "Ticari Faaliyet Başlandıktan Itibaren 4. Ayın İlk günü"
+                    },
+                    {
+                        "sub_field_name": "SERBEST MESLEK MENSUPLARI (NOTERLER HARIC)",
+                        "date": "Ticari Faaliyet Başlangıçını Takip Eden 4. Ayın İlk günü"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+fatura3 5.51
+
+{
+    "file_path": "./uploads/fatura3.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "satıcı": {
+            "adres": "Hasanpaşa Mahallesi Kurbağalıdere Caddesi Ali Ferruh Sokak No:14/3/5, 34722, Hasanpaşa Kadıköy, İstanbul, Türkiye",
+            "telefon": "216308350",
+            "fax": "2113470311",
+            "e-posta": "orka@orka.com.tr",
+            "web": "http://www.orka.com.tr",
+            "vergi_no": "4470211661",
+            "ticaretsicil_no": "123456",
+            "mersis_no": "12.47.54.24.41.58.74"
+        },
+        "alıcı": {
+            "adres": "Aydınevi Mh. Sanayi Cd. Mendirek Sk. No 3 Orka Plaza Maltepe, İstanbul, Türkiye",
+            "telefon": "2162230061",
+            "vergi_no": "11111111111"
+        },
+        "fatura": {
+            "özelleştirme_no": "TR1.2",
+            "senaryo": "EARSIVFATURA",
+            "fatura_tipi": "SATIŞ",
+            "fatura_no": "EAR202400000001",
+            "fatura_tarihi": "08/05/2024",
+            "fatura_saati": "17:11:34"
+        },
+        "ürün_hizmet": {
+            "sira_no": "1",
+            "ürün_adı": "17 MIC 2700 GR STRECH 17 MIC 2700 GR STRECH",
+            "miktar_birim": "1 Adet",
+            "birim_fiyat": "10.000,00 TL",
+            "brüt_fiyat": "10.000,00 TL",
+            "kdv_oranı": "%20",
+            "kdv_tutarı": "2.000,00 TL",
+            "diğer_vergiler": "",
+            "ürün_hizmet_tutarı": "10.000,00 TL"
+        },
+        "toplam_tutarı": {
+            "ürün_hizmet_toplam_tutarı": "10.000,00 TL",
+            "kdv_matrahı": "10.000,00 TL",
+            "hesaplanan_kdv": "2.000,00 TL",
+            "vergiler_dahil_toplam_tutarı": "12.000,00 TL",
+            "vergiler_harici_toplam_tutarı": "10.000,00 TL",
+            " ödecek_tutarı": "12.000,00 TL"
+        }
+    }
+}
+
+fatura4 3.77
+
+{
+    "file_path": "./uploads/fatura4.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "firmName": "ŞENGÖNÜL TAŞVIKCULUK GIDA SAN.TİC.LTD.STI",
+        "address": "SERİFALİ MAH. ÇETİN CAD. ADİL SOK. NO:8 Kapı No: ÜMRANIYE/İSTANBUL",
+        "phone": "02165277783",
+        "fax": "",
+        "webSite": "info@sengonultavukculuk.com",
+        "email": "info@sengonultavukculuk.com",
+        "taxOffice": "BEŞİKTAŞ",
+        "vatNumber": "8060013931",
+        "merisNumber": "0806001393100012",
+        "commercialRegisterNumber": "5520",
+        "documentType": "EARSIVFATURA",
+        "documentNumber": "BC72023000001051",
+        "dateOfDocument": "10-11-2023",
+        "dateOfService": "10-11-2023",
+        "quantity": "16,22 KG",
+        "unitPrice": "127,74 TL",
+        "description": "TAZE BONFILE 110-120 GR",
+        "totalAmount": "2.071,94000 TL",
+        "discountAmount": "0,00 TL",
+        "kdvRate": "%1,00",
+        "kdvAmount": "20,72 TL",
+        "otherTaxes": "",
+        "serviceTaxAmount": "2.071,94 TL",
+        "totalDiscount": "0,00 TL",
+        "calculatedKDV": "20,72 TL",
+        "totalIncludingTaxes": "2.092,66 TL",
+        "amountDue": "2.092,66 TL"
+    }
+}
+
+fatura5 4.66
+
+{
+    "file_path": "./uploads/fatura5.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "firm_name": "KURSOFT YAZILIM BILIŞİM TEKNOLOJİLERİ",
+        "phone_number": "08504200577",
+        "tax_office": "Melikgazi",
+        "tax_number": "5940853387",
+        "email": "",
+        "address": "Cafer bey Mahallesi Bardak Sokak, Safir Apartmanı 31/C Melikgazi / Kayseri Kayseri",
+        "company_details": {
+            "name": "KURSOFT YAZILIM",
+            "address": "Kemeralti Mahallesi, Çelebi Sk. No:1 Melikgazi / KAYSERİ",
+            "website": "ÖZEL ALAN 1",
+            "email": "m ustafa@kursoft.com",
+            "phone_number": "08504200577",
+            "tax_office": "Melikgazi",
+            "tax_number": "5940853387"
+        },
+        "invoice_details": {
+            "specialization_number": "",
+            "scenario": "Temel Fatura",
+            "invoice_type": "0",
+            "invoice_number": "11120631910",
+            "invoice_date": "18.08.2022",
+            "delivery_number": "",
+            "delivery_date": "18.08.2022"
+        },
+        "items": [
+            {
+                "item_number": "1",
+                "item_name": "KRS v5 KOBI",
+                "quantity": "1,00 Adet",
+                "unit_price": "3898,31 TL",
+                "discount_percentage": "10,00",
+                "discount_amount": "389,83 TL",
+                "total_amount": "3,898,31 TL"
+            }
+        ],
+        "total_amounts": {
+            "total_goods_and_services": "3,898,31 TL",
+            "total_discount": "389,84 TL",
+            "total_tax": "631,53 TL",
+            "total_including_tax": "4,140,00 TL"
+        },
+        "notes": {
+            "delivery_address": "E-Arşiv İleri kapsamında elektronik ortamda iletilmiştir.",
+            "payment_terms": "Odeme Kapalı",
+            "additional_notes": "Yazılı: DORT BIN YÜZ KIRK LIRA"
+        }
+    }
+}
+
+genelge1 3.63
+{
+    "file_path": "./uploads/genelge1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "GENELGE",
+        "date": "07/05/2020",
+        "author": {
+            "name": "İsmail YILMAZ",
+            "position": "Kurum Başkanı V."
+        },
+        "organization": {
+            "name": "T.C. SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
+            "department": "Emeklilik Hizmetleri Genel Müdürlüğü"
+        },
+        "subject": "Coronavirus (COVID-19)",
+        "content": {
+            "background_information": "Çin'in Wuhan kentinde ortaya çıkan yeni tip Koronavirüs (COVID-19), çok hızlı bir küresel yayılım göstererek neredeyse tüm Dünya ülkelerini etkilemiş ve Dünya Sağlık Örgütü'nce pandemik (salgın) bir hastalık olarak ilan edilmiştir.",
+            "impact_in_turkey": "Ülkemiz de söz konusu salgından olumsuz yönde etkilendi.",
+            "legal_reference": {
+                "law_number": "5510",
+                "law_title": "Sosyal Sigortalar ve Genel Sağlık Sigortası Kanununun 15 inci maddesi",
+                "relevant_paragraph": "4 üncü maddenin birinci fıkrasının (a) ve (b) bentleri kapsamındaki sigortalının, iş kazası ve meslek hastalığı dışında kalan ve iş göremezliğine neden olan rahatsızlıklar, hastalık halidir."
+            },
+            "recommendation": "Buna göre; COVID-19 virüsünün bulaşıcı bir hastalık olduğu dikkate alındığında, söz konusu salgına maruz kalan ve sağlık hizmet sunucalarına müracaat eden sigortalılara hastalık kapsamında provizyon alınması gerekmektedir.",
+            "request": "Bilgi edinilmesini ve gereğince işlem yapılmasını rica ederim."
+        }
+    }
+}
+
+genelge2 6.50
+{
+    "file_path": "./uploads/genelge2.jpg",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "documentType": "GENELGE",
+        "date": "29.04.2022",
+        "subject": "2022/9 sayılı Genelde Değişiklik",
+        "author": {
+            "name": "Sezai UÇARMAK",
+            "title": "Bakan Yardımcısı"
+        },
+        "content": {
+            "changes": [
+                {
+                    "section": "I. BEYAN",
+                    "subsection": "1. Basitleştirilmiş Gümrük Beyanı (İthalat)",
+                    "change": {
+                        "item": "2.000 (iki bin) adet",
+                        "new_value": "500 (beş yüz) adet"
+                    }
+                },
+                {
+                    "section": "II. KIYMET TESPİTİ VE VERGİLENDİRME",
+                    "changes": [
+                        {
+                            "description": "Eşyannın kıyımetsi, ibraz edilen faturaya, satış fişine veya eşya bedelinin ödendiğine ilişkin belgeye göre belirlenir."
+                        },
+                        {
+                            "description": "Bu tür belge ibraz edilmemesi veya ibraz edilen belgede kayıtlı kıyımetsi düşük bulunması halinde, eşyannın kıyımetsi gümrük idaresince belirlenir."
+                        },
+                        {
+                            "description": "Bu Genelge hükümleri kapsamında posta veya hızlı kargo taşımacılığı yoluyla gelen eşya için Türkiye'deki giriş liman veya yerine kadar yapılan nakliye giderleri, eşyannın kıyımetine ilave edilir."
+                        },
+                        {
+                            "description": "Navlun giderinin dahil olduğu teslim şekillerinde, ibraz edilen fatura, satış fişi veya eşya bedelinin ödendiğine ilişkin belgede eşyanın filen ödenen veya ödenecek fiyatı ile navlun gideri ayrı ayrı gösterilir."
+                        },
+                        {
+                            "description": "Navlun giderinin bu belgelere ayrı gösterilmemiş durumlarda, 3 (üç) avro tutarında emsal navlun gideri filen ödenen veya ödenecék fiyatla eklenir."
+                        },
+                        {
+                            "description": "Navlun giderinin dahil olmadığı teslim şekillerinde ise, navlun makbuzu ibrazının imkansız olduğu veya kabul edilebilir nitelikte bulunmadığı hallerde, 3 (üç) avro tutarında emsal navlun gideri filen ödenen veya ödenecék fiyatla eklenir."
+                        },
+                        {
+                            "description": "Basitleştirilmiş gümrük beyannamesinde eşyannın kıyımetsi ile navlun gider taşıma senedinin ilgili bölümlerinde ayrı ayrı beyin edilir."
+                        }
+                    ]
+                }
+            ],
+            "effectiveDate": "27/12/2024"
+        },
+        "contactInformation": {
+            "address": "Dumlupınar Bulvarı No: 151 Eskaşehir Yolu 9. Km. 06530 ANKARA",
+            "phone": "(312)4493398",
+            "fax": "(312)4493103",
+            "email": "a.ozgen@gh.gov.tr",
+            "website": "www.ticaret.gov.tr",
+            "telephone": "(312)4493398"
+        }
+    }
+}
+
+gizliresmi1 3.64
+
+{
+    "file_path": "./uploads/gizli_resmi.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "tarih": "4 Nisan 2019",
+        "sayi": "68244839-954.99-003",
+        "konu": "Gizli Görevlendirmeler Hakkında",
+        "cumhurbaşkanı": "Recep Tayyip Erdoğan",
+        "cumhurbaşkanlığı_seal": "TC Cumhurbaşkanlığı",
+        "document_type": "Çok Gizli",
+        "document_to": "İstanbul Büyükşehir Belediye Başkanlığı (Operasyon Amirlerine)",
+        "content": [
+            {
+                "description": "Genel merkezden, kriptolu telefonlarınıza onay mesajı gelene kadar (belediye binaları, ispark üst yönetim merkezi, istaç genel müdürlüğü vb.) kritik merkezler terkedilmeyecek.",
+                "action": "Bu ve benzeri tüm üst yönetimlerdeki ihale belgeleri, usulsüz evraklar, tapu kadastro bilgi ve belgeleri yok edilecek."
+            },
+            {
+                "description": "Türgev, Tügya ve Ensar vakfına devretilen bina, nakdi ödemeler, bilgi ve belgeleri genel merkeze teslim edilecek.",
+                "action": "İBB Billboard medya a.ş. de Şahsım ve Macit Gül isimlerine ait bilgi, belge kalmayacak biçimde medya pano a.ş. temizlenecek."
+            },
+            {
+                "description": "Yeniden oy sayım işlemlerinin sonlandırılacağı 18.04.2019 tarihine kadar verilen tüm görevleri en hassasi dava-i duygularla yerine getirenler hiç bir suretle yargı ve ceza davalarına maruz kalmayacak"
+            }
+        ]
+    }
+}
+
+
+hakdeiş1 
+{
+    "file_path": "./uploads/hakedis1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "error": "JSON ayrıştırma hatası: Expecting ',' delimiter: line 5 column 25 (char 113)"
+    }
+}
+
+--aslında dönen--
+
+
+```json
+{
+  "document_analysis": {
+    "document_title": "HAKEDİŞ İCMALİ",
+    "page_number": 1,
+    "hakedish_number": 01,
+    "project_name": "Küçükyalı Belediyesi Bina İnşaatı İşi",
+    "items": [
+      {
+        "item_number": 1,
+        "item_type": "İNŞAAT",
+        "amount": 8242.82
+      },
+      {
+        "item_number": 2,
+        "item_type": "MAKİNA TESİSATI",
+        "amount": 455.08
+      },
+      {
+        "item_number": 3,
+        "item_type": "ELEKTRİK",
+        "amount": 671.59
+      }
+    ],
+    "total_amount": 9369.49,
+    "item_subtractions": [
+      {
+        "subtraction_a": "Bir Evelki Hakedişten Yapılan Kesinti",
+        "subtraction_b": "Bu Hakedişten Yapılan Kesinti"
+      }
+    ],
+    "total_subtraction_amount": 0,
+    "total_hakedish_amount": 9369.49
+  }
+}
+```
+
+hakedis2 2.77
+
+{
+    "file_path": "./uploads/hakedis2.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Hakediş Raporu",
+        "date": "05.02.2016",
+        "document_number": "01",
+        "implementation_year": "2016",
+        "project_name": "Küçükçekmece Belediyesi Bina İnşaatı İşi",
+        "project_code": "005",
+        "contractor_name": "AMP Yazılım San. Tic. Ltd. Şti.",
+        "contract_value": "95,493.58 TL",
+        "bidding_date": "13.11.2015",
+        "bidding_decision_date_and_number": "28.12.2015 - 03169",
+        "contract_date_and_number": "25.12.2015",
+        "delivery_date": "04.01.2016",
+        "work_duration": "363 Takvim Günü",
+        "completion_date": "31.12.2016",
+        "total_advance_amount": "null",
+        "total_contract_value": "null",
+        "extension_decisions": [
+            {
+                "decision_date": "28.01.2016",
+                "duration": "38 GÜN",
+                "termination_date": "12.03.2017",
+                "reason_for_extension": "Cezalı"
+            }
+        ]
+    }
+}
+
+makbuz1 3.59
+
+{
+    "file_path": "./uploads/makbuz1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "MakbuzTek Makbuz Örneği",
+        "document_date": "10.01.2019",
+        "document_time": "09:58:00",
+        "issuer": {
+            "name": "Mehmet Yılmaz",
+            "address": "1396. Cad dğ AKYURT /ANKARA 4. Arş 19/20 S",
+            "tax_office": "DOĞANBEY",
+            "tckn": "15826139780"
+        },
+        "buyer": {
+            "name": "Ahmet Şahin",
+            "address": "7834 CAD. BÜKLÜM SOKAK NO:82 ÇANKAYA ANKARA",
+            "tax_office": "DOĞANBEY",
+            "tckn": "12345678901"
+        },
+        "invoice_details": {
+            "item": "Avukatlık ücreti",
+            "gross_amount": "12.500,00 TL",
+            "vat_stop_taxes": "2,00%",
+            "net_amount": "10.000,00 TL",
+            "vat_rate": "18,00%",
+            "vat_amount": "2.250,00 TL",
+            "vat_reduction_rate": "0,00%",
+            "total_amount": "12.250,00 TL"
+        },
+        "additional_notes": [
+            "(*) G.V. Stopaj Tutarı: Bu tutar alıcı tarafındandır Muhtasar Beyanne ile beyan edilip ödeneşi gereken tutardır.",
+            "(**) KDV Teksilat Tutarı: Bu tutar alıcı tarafındandır 2 No.lu KDV Beyanneesi ile sorumlul sifatiyla beyan edilip ödeneşi gereken tutardır."
+        ]
+    }
+}
+
+protokol1 2.81
+
+{
+    "file_path": "./uploads/protokol1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Özel Erdemli Çocuk Anaokulu Eğitim Sözleşmesi",
+        "institution_name": "Özel Erdemli Çocuk Anaokulu",
+        "address": "Mansuroğlu Mahallesi 269/13 SK No:5A Bayraklı-İZMİR",
+        "partner_institution": "İzmir Barosu Başkanlığı",
+        "partner_address": "1456 SK No:14 Konak-İZMİR",
+        "protocol_topic": [
+            {
+                "topic": "Özel Erdemli Çocuk Anaokulu eğitim hizmetlerinde İzmir Barosu Başkanlığı çalışanlarına yeni kayıtlarda geçerli olmak üzere liste fiyatlandırma üzerinden %20 oranında indirimden yararlanmayı beyan ve taahhüt eder."
+            },
+            {
+                "topic": "İzmir Barosu Başkanlığı personel kimlik kartı ve firma istirakları çalışanlarına ait kimlik kartının ibrazi, belirtilen indirim oranlarının uygulanması için geçerlidir."
+            },
+            {
+                "topic": "İzmir Barosu Başkanlığı anlaşmayı çalışanlarına duyurarak gelen taleplerin bilgilerini kurumumuza bildirecektir."
+            }
+        ],
+        "protocol_date": "31.03.2023",
+        "protocol_duration": "31.03.2024",
+        "signature": "Buşra ALÇAY"
+    }
+}
+
+protokol2 3.88
+
+{
+    "file_path": "./uploads/protokol2.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "documentType": "MEVLANA DEĞİŞİM PROGRAMI PROTOKOLÜ",
+        "protocoleTitle": "MEVLANA EXCHANGE PROGRAMME PROTOCOL",
+        "parties": [
+            {
+                "partyName": "Prof. Dr. Ramazan Korkmaz",
+                "position": "Rector of Ardahan University"
+            },
+            {
+                "partyName": "Akademik Ömer Eldarov",
+                "position": "Rector of Azerbaijan State Academy of Fine Arts"
+            }
+        ],
+        "agreementDate": "21/05/2013",
+        "validUntil": "2018",
+        "protocolPurpose": "Collaboration between higher education institutions in the scope of Mevlana Exchange Programme",
+        "legalBasis": "2547 sayılı Yükseköğretim Kanunu ve Yükseköğretim Kurumları Arasında Öğrenci ve Öğretim Üyesi Değişim Programına İlişkin Yönetmelik, Yükseköğretim Kurumları Arasında Yurtiçi Öğretim Elemanı ve Öğrenci Değişim Programlarının Desteklenmesi Amacıyla Yükseköğretim Kurulu'na Yükseköğretim Kurumlarına Aktarılacak Tutarlara Kullanımı, Muhasebeleştirilmesi",
+        "agreementScope": "Student and academic staff exchange",
+        "agreementConditions": "Concur with principles and conditions set forth in Mevlana Exchange Programme and accomplish the Exchange in compliance with Higher Education Law no.2547, Regulation on Student and Academic Staff Exchange Programme Between Higher Education Institutions, Principle and Procedures on Use, Recognition of the Amounts to be Transferred to Higher Education Institutions by Council of Higher Education Institution with the intention of Supporting National Academic Staff and Student Exchange Programmes between Higher Education Institutions and Relevant Matters and other legislation in the fields mentioned below, in designated activities and numbers.",
+        "signatories": [
+            {
+                "signature": "Prof. Dr. Ramazan Korkmaz",
+                "position": "Rector of Ardahan University"
+            },
+            {
+                "signature": "Akademik Ömer Eldarov",
+                "position": "Rector of Azerbaijan State Academy of Fine Arts"
+            }
+        ]
+    }
+}
+
+resmi1 2.97
+
+{
+    "file_path": "./uploads/resmi1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "T.C. Yükseköğretim Kurulu Başkanlığı Yayın ve Dokümantasyon Daire Başkanlığı",
+        "date": "02.02.2021",
+        "document_number": "E-36054236-806.01.05-7281",
+        "subject": "İSNAD Atf Sistemi",
+        "distribution_locations": "DAĞITIM YERLERİNE",
+        "attention_to": "Sivas Cumhuriyet Üniversitesi Rektörlüğünün 01.02.2021 tarihli ve 30182376-199.01.01-E.8463 sayılı yazısı.",
+        "content": "Sivas Cumhuriyet Üniversitesi Rektörlüğü tarafından 2018 yılında sosyal ve beşeri bilimler alanında atf ve kaynak göstermede görülen standart gereksininin giderilmesi amacıyla İSNAD Atf Sistemi'nin geliştirildiği, İSNAD yazım kılavuzunun Türkçe, İngilizce, Arapça ve Farsça olarak hazırlanmış ve açık erişim olarak www.isnadsistemi.org adresinden kullanıma sunulduğu konusunda Sivas Cumhuriyet Üniversitesinden alınan ilgi yazının bir örneği ekte gönderilmektedir.",
+        "signatory": "Ahmet KAHRAMAN",
+        "position_of_signatory": "Başkan a., Daire Başkanı"
+    }
+}
+
+resmi2 3.94
+
+{
+    "file_path": "./uploads/resmi2.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Mektup",
+        "sender": {
+            "organization": "TC Sağlık Bakanlığı",
+            "department": "Türkiye Kamu Hastaneleri Kurumu Matlı Hizmetler Kurum Başkanı Yardımcılığı"
+        },
+        "recipient": {
+            "organization": "Kamu Hastaneleri Birliği Genel Sekreterliği"
+        },
+        "subject": "Suriyeli Yabancıların Kayıt İşlemleri",
+        "date": "17.10.2014",
+        "content": {
+            "message": "İçişleri Bakanlığı Göç İdaresi Genel Müdürlüğünün 17.10.2014 tarihli ve 29 Sayılı Genelgesi",
+            "additional_information": "İçişleri Bakanlığı Göç İdaresi Genel Müdürlüğünün \"Suriyeli Yabancıların Kayıt İşlemleri\" konulu ilgi genelgesi Ek' te sunulmuştur."
+        },
+        "signer": {
+            "name": "Dr. Fuat KANTARCI",
+            "position": "Kurum Başkanı a.",
+            "title": "Kurum Başkan Yardımcısı"
+        },
+        "attachments": [
+            {
+                "type": "Ek",
+                "description": "İlgili Genelge Örneği (1Sayfa)"
+            }
+        ],
+        "distribution_plan": {
+            "type": "D1 Dağıtım Planı",
+            "details": "(Ek için bakınız www.tkhk.gov.tr/DB/14/744_DB_14_genelge )"
+        },
+        "contact_information": {
+            "address": "Ziyabey Cad. 1407 Sk. No: 4 Balgat / ANKARA",
+            "finance_analysis_department": {
+                "phone": "0 (312) 705 13 57",
+                "fax": "0 (312) 705 13 97",
+                "email": "tkhk.finansanaliz@saglik.gov.tr"
+            },
+            "irb": {
+                "name": "F.YILMAZ"
+            }
+        }
+    }
+}
+
+resmi3 4.01
+
+{
+    "file_path": "./uploads/resmi3.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "TOBB Türkiye Odalar ve Borsalar Birliği",
+        "date": "29.05.2019",
+        "subject": "2019/16 Sayılı Genelge",
+        "sender": {
+            "name": "Ali Emre YURDAKUL",
+            "position": "Genel Sekreter V."
+        },
+        "recipient": {
+            "name": "Ticaret Bakanlığı"
+        },
+        "content": {
+            "message": "Suriye'de güvenlik altına alınan bölgeler ile ülkemiz arasında gerçekleştirecek ticarette verilecek gümrük hizmetlerinin düzenlennmesi amacıyla hazırlanan ekte bir örneği yer alan 2019/6 sayılı genelge iletilmiştir.",
+            "request": "Bilgilerinizi ve ilgili üyelerinize duyurulmasını rica ederim."
+        },
+        "attachments": [
+            {
+                "title": "2019-16 sayılı Genelge ve eki (4 sayfa)"
+            }
+        ],
+        "signature": {
+            "electronic_signature": true,
+            "electronic_signature_code": "BE8ALRS4"
+        },
+        "contact_information": {
+            "address": "Dumlupınar Bulvarı No:252 (Eskişehir Yolu 9. Km.) 05530 /ANKARA",
+            "phone": "+90 (312) 218 20 00 (PBX)",
+            "fax": "+90 (312) 219 40 90 - 91 - 92...",
+            "email": "info@tobb.org.tr",
+            "website": "www.tobb.org.tr",
+            "additional_contact": {
+                "name": "Merve Ece AUGU",
+                "phone": "+90312 218 2233"
+            }
+        },
+        "document_number": "34221550-100-5654",
+        "document_date": "10/06/2019",
+        "document_type_code": "381"
+    }
+}
+
+resmi4 5.32
+
+{
+    "file_path": "./uploads/resmi4.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Dokunun",
+        "date": "20.01.2009",
+        "sender": {
+            "institution": "Karamanoğlu Mehmetbey Üniversitesi",
+            "department": "Personel Daire Başkanlığı"
+        },
+        "recipient": {
+            "title": "Fakülte Dekanlıklarına, Yüksekokul Müdürlüklerine, Meslek Yüksekokul Müdürlüğüne, Sosyal Bilimler Enstitüsü Müdürlüğüne"
+        },
+        "subject": "Yardımcı Doçent Görev Süresi Uzatmalari",
+        "content": {
+            "purpose": "Üniversitemizde yardımcı doçent olarak görev yapmakta olan öğretim üyelerinin görev süresi uzatmalarda, birimlerim arasında birlikteliği sağlamak amacıyla yeniden düzenlenmeye gidilmiştir.",
+            "instructions": [
+                {
+                    "step": "1",
+                    "description": "Yardımcı doçent öğretim üyeleri, yazımız ekinde gönderilen 'Faaliyet Raporu Formu' ni bilgisayar ortamında doldurarak, dilekçeyle birlikte görev süresi bitiminden en geç bir ay önce ilgili birime (anabilim dalı başkanlığı/ bölüm başkanlığı/ program başkanlığı/ müdürlük/ vd.) vereceklerdir."
+                },
+                {
+                    "step": "2",
+                    "description": "Birim sorumluları (anabilim dalı başkanı/ bölüm başkanı/ program sorumlusu/ müdür/ vd.) formun son sayfasında kendilerine ayrılan bölüme gösterilerini yazarak inceleyacaklardır. Birim sorumluları, faaliyet raporu, ilgili öğretim üyesinin dilekçesi bir liste yazı ile dekankı/ müdürlik makamına göndericektir. Gönderilerin üst yazda birim sorumluları, mutlak süreyle görev süresi uzatma ilişkin gösterilerini belirtecektir."
+                },
+                {
+                    "step": "3",
+                    "description": "Dekankılı ya da müdürlikler, ilgili öğretim üyesinin dilekçesi, faaliyet raporu ve yönetim kurulu kararı ile birlikte görev süresi uzatma tekliflerini, görev süresi bitiminden en geç 20 gün önce rektörlik makamına gönderecektir."
+                }
+            ],
+            "request": "Konunun biriminizin öğretim üyelerine duyurulması ve gereğini rica ederim."
+        },
+        "signatures": [
+            {
+                "name": "Prof. Dr. Kemal ESENGÜN",
+                "position": "Rektör Yardımcısı"
+            }
+        ],
+        "attachments": [
+            {
+                "title": "Faaliyet Raporu Formu",
+                "pages": "2 sayfa"
+            }
+        ]
+    }
+}
+
+resmi5 4.43
+{
+    "file_path": "./uploads/resmi5.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "documentType": "Official Letter",
+        "sender": {
+            "name": "Zonguldak Valiliği",
+            "position": "İl Milli Eğitim Müdürlüğü"
+        },
+        "recipient": {
+            "name": "Valilik Makamına",
+            "position": "Valilik Makamı"
+        },
+        "date": "29/09/2021",
+        "subject": "Zonguldak Okuyor Projesi",
+        "content": {
+            "description": "2021 - 2022 Eğitim - Öğretim yılında okuyan öğrencilerin okuma hassasiyetlerini artırmak, okuma alışkanlığını ilimizde istenilen seviyeye çıkarmak, okuyan, dinleyen ve okudukları hayatına yön verecek bireylerin yetişmesine katkı sağlamak, değerler eğitim kapsamında örnek davranışları tanıtmak ve kendine güven duygusunu geliştirmek, okuma becerisinin geliştirmesini sağlayarak, eğitim - öğretime katkısını artırmak, etkili düşünmeyi sağlamak, kültürel duygularımızı pekiştirmek ve okuyan farkındalık oluşturan öğrencilerin ödüllendirilmesini sağlamak amaçlıdır.",
+            "project": {
+                "name": "Zonguldak Okuyor",
+                "description": "Proje kapsamında okuyan öğrencilerin ödüllendirilmesi amaçlanmaktadır."
+            },
+            "goals": [
+                "Okuma hassasiyetlerini artırmak",
+                "Okuma alışkanlığını ilimizde istenilen seviyeye çıkarmak",
+                "Yetişmiş bireylerin hayatına yön verecek bireylerin yetişmesine katkı sağlamak",
+                "Değerler eğitim kapsamında örnek davranışları tanıtmak",
+                "Kendine güven duygusunu geliştirmek",
+                "Okuma becerisinin geliştirmesini sağlayarak",
+                "Eğitim - öğretime katkısını artırmak",
+                "Etkili düşünmeyi sağlamak",
+                "Kültürel duygularımızı pekiştirmek"
+            ],
+            "expectedOutcomes": [
+                "Okuyan farkındalık oluşturan öğrencilerin ödüllendirilmesi",
+                "Projenin uygulanması"
+            ]
+        }
+    }
+}
+
+
+resmi6 2.41
+{
+    "file_path": "./uploads/resmi6.jpg",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document_type": "Mektup",
+        "sender": {
+            "name": "TC Antakya Kaymakamlığı İlçe Milli Eğitim Müdürlüğü",
+            "logo": "https://example.com/logo.png"
+        },
+        "recipient": {
+            "name": "Dağıtım Yerlerine",
+            "address": "Tüm Okullar ve Kurumlara"
+        },
+        "date": "12.12.2024",
+        "subject": "Taşımalı Eğitim",
+        "content": {
+            "text": "Öğrenci servislerinde ön koltuklarda kız öğrencilerin oturmaması için okulunuzdaki öğrencilerin bilgilendirilmesi ve ön koltukta oturan kız öğrencinin oturdugunun tespiti halinde şoförlerin -öğrencilerin derhal uyarılması gerekmektedir. Konu hakkında gerekli hassasiyetin gösterilmesi hususunda; Bilgilerini ve gereğini rica ederim."
+        },
+        "signature": {
+            "name": "Mehmet ÖZTÜRK",
+            "title": "Müdür a.",
+            "sub_title": "Şube Müdürü"
+        }
+    }
+}
+
+tamim1 5.20
+{
+    "file_path": "./uploads/tamim1.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "document": {
+            "title": "TÜRK STANDARDLARI ENSTİTÜSÜ",
+            "organization": "TURKISH STANDARDS INSTITUTION",
+            "date": "22/02/2011",
+            "document_number": "B.14.2.TSE.0.14.30.01-158.99-66541",
+            "subject": "Tamim",
+            "content": {
+                "main_text": "Sanayi ve Ticaret Bakanlığı tarafından 28.11.2008 tarih ve 27068 sayılı Resmi Gazete'de yayımlanarak 01.01.2009 tarihinde yürürlüğe giren \"Araçların İmal, Tadil ve Montajı Hakkındaki Yönetmelik\";",
+                "revision": "Sanayi ve Ticaret Bakanlığı tarafından revize edilerek, 30 Kasım 2010 tarih ve 27771 sayılı Resmi Gazete'de yayımlanarak yürürlüğe girmiştir.",
+                "meeting_details": {
+                    "date": "28-30 Ocak 2011",
+                    "purpose": "Araç Proje Uygulama Usul ve Esasları üzerine bir toplantı düzenlemiştir."
+                },
+                "additional_notes": [
+                    "Anlan toplantıda, 16 Şubat 2006 tarihinden bugüne kadar yayımlanan tamamlar ve AITM revizyonu yeniden incelenmiştir.",
+                    "Ekte verilen Araç Proje Uygulama Usul ve Esaslarının uygulanmaya esas olmak üzere Araç Proje Uygulama Usul ve Esasları hususunda alınan kararlar ekte verilmiştir."
+                ],
+                "request": "Araç Proje faaliyetlerinin ekte verilen Araç Proje Uygulama Usul ve Esasları çerçevesinde yürütülmesini öneşle rica ederim."
+            },
+            "signatory": {
+                "name": "Mustafa AGÜŞ",
+                "position": "Genel Sekreter"
+            },
+            "attachments": [
+                "Araç Proje Uygulama Esasları"
+            ],
+            "distribution": [
+                "1- Araç Proje Faaliyeti Gösteren Tüm Birimler",
+                "2- Gözetim Ve Muayene Dairesi Başkanlığı"
+            ],
+            "contact_information": {
+                "address": "Necatibey Cad. No: 112 06100 Bakanlıklar - ANKARA",
+                "phone": "+90 (312) 416 62 00",
+                "fax": "+90 (312) 416 66 11"
+            }
+        }
+    }
+}
+
+tse_belge 5.32
+
+{
+    "file_path": "./uploads/tse_belge.png",
+    "num_pages": 1,
+    "is_keys_valid": true,
+    "is_types_valid": false,
+    "result": {
+        "documentType": "Türk Standartlarına Uygunluk Belgesi",
+        "documentTitle": "Turkish Standards Institution Certificate of Conformity to Turkish Standards",
+        "referenceNumber": "027110-TSE-03/01",
+        "firstIssueDate": "26.11.2015",
+        "validUntilDate": "28.12.2019",
+        "licenseHolderName": "REÇBER KABLO A.Ş.",
+        "licenseHolderAddress": {
+            "street": "Yılmaz Alpaslan Cad. No:73 /1 Çörlu",
+            "city": "Tekirdağ/Türkiye"
+        },
+        "manufacturingPlaceName": "REÇBER KABLO ANONIM ŞİRKETİ",
+        "manufacturingPlaceAddress": {
+            "street": "Yılmaz Alpaslan Cad No:71 Çörlu",
+            "city": "Tekirdağ / Türkiye"
+        },
+        "relatedTurkishStandard": "TS 13755 / Kablolar - Sinyal ve kontrol kabloları / 10.04.2017",
+        "scopeOfLicense": [
+            "KABOULAR - Sinyal ve kontrol kabloları",
+            "LYİSYAL TIPLİ DAMARA KADAR (7 DAMAR DAHİL)",
+            "LYİSYAL TIPLİ 7 DAMARA KADAR (7 DAMAR DAHİL)",
+            "LYİSYAL TIPLİ 7 DAMARA KADAR (7 DAMAR DAHİL)",
+            "LHİH TIPLİ DAMARA KADAR (7 DAMAR DAHİL) (K.D.24.06.2010)",
+            "LHİH TIPLİ 7 DAMARA KADAR (7 DAMAR DAHİL) (K.D.24.06.2010)",
+            "LHİSTİP TIPLİ 7 DAMARA KADAR (7 DAMAR DAHİL) (K.D.24.06.2010)",
+            "LHİSTİP TIPLİ 7 DAMARA KADAR (7 DAMAR DAHİL) (K.D.24.06.2010)"
+        ],
+        "signatureDate": "11.12.2018",
+        "signatureName": "AHMET NURSÜ KARTAL",
+        "signaturePosition": "Belgelerdenme Merkezi Başkanı",
+        "institution": "Türk Standardları Enstitüsü",
+        "address": {
+            "street": "Çayırköy Tren İstasyonu Yan ÇAYIRVAĞEBZE",
+            "phone": "Tel: 2672371271 Fax: 2672371066",
+            "email": "simga@tse.org.tr",
+            "website": "www.tse.org.tr"
+        }
+    }
+}
+
+
+
+
+
