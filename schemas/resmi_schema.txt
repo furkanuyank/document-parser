@@ -1,0 +1,26 @@
+ {
+"number": {
+   "Belgenin sayısı"
+          },
+"subject":{
+    "Belgenin konusu"
+          },
+"date":{
+     "Belgenin tarihi"
+          },
+"issuer":{
+      "Belgeyi gönderen kurum"
+         },
+"recipient":{
+   "Belgeyi alan kurum"
+            },
+"distributions":[
+      "Belgenin dağıtımları. (Ayrı olarak dağıtım listesini kontrol et)"
+    ]
+"attachments":[
+   "Belgenin ekleri. (Ayrı olarak ek listesini kontrol et)"
+     	      ],
+"referencesNumbers": [
+    "Belgenin İlgi: kısmındaki her bir seçenekteki belge sayıları"
+  		     ]
+}

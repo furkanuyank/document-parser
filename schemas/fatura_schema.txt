@@ -1,0 +1,61 @@
+{
+  "invoice_number": "string",
+  "invoice_type": "string",
+  "scenario": "string",
+  "issue_date": "string",
+  "issue_time": "string",
+  "delivery_note_number": "string",
+  "delivery_note_date": "string",
+
+  "seller": {
+    "title": "string",
+    "address": "string",
+    "phone": "string",
+    "fax": "string",
+    "email": "string",
+    "website": "string",
+    "tax_office": "string",
+    "tax_number": "string",
+    "mersis_number": "string",
+    "trade_registry_number": "string"
+  },
+
+  "buyer": {
+    "title": "string",
+    "address": "string",
+    "email": "string",
+    "tax_office": "string",
+    "tax_number": "string",
+    "ettn": "string"
+  },
+
+  "items": [
+    {
+      "description": "string",
+      "quantity": "number",
+      "unit_price": "number",
+      "discount_rate": "string",
+      "discount_amount": "number",
+      "vat_rate": "string",
+      "vat_amount": "number",
+      "other_taxes": "number",
+      "net_amount": "number"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "number",
+    "total_discount": "number",
+    "total_vat": "number",
+    "total_with_tax": "number",
+    "amount_due": "number"
+  },
+
+  "notes": [
+    "string"
+  ],
+
+  "account_info": [
+    "string"
+  ]
+}
