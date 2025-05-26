@@ -208,7 +208,7 @@ def stop_worker(coordinator_url, worker_id):
     # Send request to remove worker from Redis
     try:
         response = requests.post(f"{coordinator_url}/api/worker/stop/{worker_id}")
-        print(f"Removal response: {response.status_code} - {response.text}")
+        print(f"Stop response: {response.status_code} - {response.text}")
     except Exception as e:
         # print(f"Error during worker removal API call: {e}")
         response = {"error": str(e)}
@@ -500,7 +500,7 @@ if __name__ == "__main__":
     new_worker_parser.add_argument("--model", default="gpt-4o-mini", help="LLM model name")
     new_worker_parser.add_argument("--api-url", default="https://api.openai.com/v1/chat/completions",
                                 help="LLM API URL")
-    new_worker_parser.add_argument("--api-key", default=os.getenv("OPENAI_API_KEY"), help="LLM API key")
+    new_worker_parser.add_argument("--api-key", default="", help="LLM API key")
 
     # In the argument parser section, replace the existing schema parsers with:
     schema_parser = subparsers.add_parser("schema", help="Schema operations")

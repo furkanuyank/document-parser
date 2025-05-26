@@ -279,7 +279,7 @@ if __name__ == "__main__":
     parser.add_argument("--name", default=f"worker-{uuid.uuid4().hex[:8]}", help="Worker name")
     parser.add_argument("--api-url", default="https://api.openai.com/v1/chat/completions", help="LLM API URL")
     parser.add_argument("--model", default="gpt-4o-mini", help="LLM model name")
-    parser.add_argument("--api-key", default=os.getenv("OPENAI_API_KEY"), help="LLM API key")
+    parser.add_argument("--api-key", default="", help="LLM API key")
 
 
     args = parser.parse_args()
